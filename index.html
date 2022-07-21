@@ -5,44 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>My Portfolio Website</title>
 </head>
 <body>
-    <div>
-        <h1>Kane Milligan</h1>
-        <p>Software Developer</p>
-    </div>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
-        </ul>
+    <nav class="navbar">
+        <a href="/contact.html">Contact Me</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/about.html">About</a>
+        <a href="/index.html">Home</a>
     </nav>
-    <div>
-        <h2>Technical Skills & Tools</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Github</li>
-                <li>Basht</li>
-            </ul>
-    </div>
-    <div>
-        <h2>Experience</h2>
-            <h3>Software Developer, Glean, Leeds -- 2022 - Present</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-    <div>
-        <h2>Education</h2>
-            <h3>Northcoders, Leeds — Software Development Apprenticeship, 2022 </h3>
+    <header>
+        <h1 id="main-header">Hi,<br> I'm Kane.</h1>
+        <p id="header-subtitle">A full stack <strong>developer</strong> with<br> a passion for 
+            <strong>optimisation</strong> and <strong>coffee</strong> <i class="uil uil-coffee"></i></p>
+    </header>
+    <content class="content-container">
+        <p class="content">I'm a Leeds-based software development apprentice, working towards 
+            my qualificaiton with Northcoders. I'm currently a developer for 
+            <a href="https://glean.co/">Glean</a>, we build a web and mobile based application with the goal of reducing information overload 
+            and providing students a more accessible form of learning. </p>
+    </content>
+    <div class="socials">
+        <a href="https://github.com/Kanem96" target="_blank"><i class="uil uil-github"></i></a>
+        <a href="https://www.linkedin.com/in/kane-milligan-521952112/" target="_blank"><i class="uil uil-linkedin"></i></a>
+        <a><i class="uil uil-twitter"></i></a>
     </div>
 </body>
 </html>
